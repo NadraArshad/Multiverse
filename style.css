@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jfif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0; 
+}
+
+
+.nav {
+    padding: 2vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.right button {
+    padding: 0.3vw 1vw;
+}
+
+.right h3{
+    font-size: 2vw;
+    font-weight: 400;
+}
+input{
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    background-color: rgb(192, 216, 251);
+    border: none;
+}
+.container {
+    width: 100%;
+    height: 100%; /* Make sure it takes full height of the main div */
+    position: fixed;
+    background: none;
+    top:0%;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+.features {
+    position: absolute;
+    right: 4%; 
+    height: 40vh; 
+  top:50%;
+
+   
+    border-radius: 8px;
+}
+
+.features button{
+    padding: 0.6vw;
+    font-size: 1.3vw;
+   background-color: rgb(192, 216, 251);
+    border-radius: 5px;
+    color: black;
+    border: none;
+}
+
+
+
+/* .menu-detail{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width:30vw;
+    height: 100vh;
+    background-color: rgba(56, 178, 254, 0.568);
+    backdrop-filter: blur(10px);
+}
+ */
+
+
+
+canvas {
+    margin: 0;
+    display: block; 
+}
+
+.label {
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 150px;
+    pointer-events: none; /* Prevent mouse events on the labels */
+}
+
+.chatbot{
+    position: absolute;
+    bottom:3%;
+    right: 2.5%;
+
+}
+
+.chatbot button{
+    padding: 1vw 2vw;
+  background-color: rgb(192, 216, 251);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2vw;
+}
